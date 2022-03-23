@@ -1,0 +1,11 @@
+<Upiti>
+    <Upit>//title</Upit>
+    <Upit>//book/title</Upit>
+    <Upit>//book/title[@lang='en']</Upit>
+    <Upit>//book[title[@lang='en']]</Upit>
+    <Upit>//book[position()=1]</Upit>
+    <Upit>//book[last()-1]/author</Upit>
+    <Upit>//book[@category='WEB']/author</Upit>
+    <Upit>//book[price>35]/title</Upit>
+    <Upit>//book[@category='WEB'][price>40]</Upit>
+</Upiti>
